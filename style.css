@@ -6,6 +6,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
+    gap: 10px;
 }
 
 .header {
@@ -22,6 +23,16 @@ ul {
     min-height: 300px;
 }
 
+.content.one {
+    background-color: gray;
+}
+
+.content.two {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
 img {
     height: 200px;
 }
@@ -29,4 +40,21 @@ img {
 #random-info {
     text-align: center;
     font-size: 36px;
+}
+
+#info-container {
+    display: flex;
+    gap: 40px;
+}
+
+.card-img {
+    height: 200px;
+    width: 180px;
+    border: 3px solid blue;
+    border-radius: 20%;
+}
+
+.infos {
+    width: 180px;
+    text-align: center;
 }
