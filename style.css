@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+*{
+    font-family: sans-serif;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -25,7 +29,23 @@ ul {
 }
 
 .content.one {
-    background-color: gray;
+    background-color: #1f2937;
+    align-items: center;
+}
+
+#hero {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+button.one {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: large;
 }
 
 .content.two {
@@ -36,11 +56,14 @@ ul {
 
 img {
     height: 200px;
+    width: 400px;
+    border: 2px white solid;
 }
 
 #random-info {
     text-align: center;
     font-size: 36px;
+    font-weight: 700;
 }
 
 #info-container {
