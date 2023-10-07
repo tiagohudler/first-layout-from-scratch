@@ -66,7 +66,6 @@ img {
 
 .content.three {
     background-color: #E5E7EB;
-    width: 100%;
 }
 
 #signup-container {
@@ -77,6 +76,7 @@ img {
     justify-content: space-around;
     align-items: center;
     width: 900px;
+    height: fit-content;
 }
 
 .button {
@@ -89,4 +89,18 @@ img {
     background-color: #3882f6;
     font-size: large;
     padding: 10px 20px;
+}
+
+#footer {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+
+.content.four {
+    padding: 0px;
+    align-items: center;
 }
