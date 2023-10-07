@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
 ul {
@@ -57,4 +58,13 @@ img {
 .infos {
     width: 180px;
     text-align: center;
+}
+
+.text-container {
+    width: 864px;
+}
+
+.content.three {
+    background-color: #E5E7EB;
+    width: 100%;
 }
